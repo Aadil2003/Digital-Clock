@@ -1,0 +1,34 @@
+#container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+ 
+    background-image: url(https://images.template.net/97908/yellow-polka-dot-background-edit-online.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+}
+@media (max-width: 768px){
+    #clock{
+        font-family: monospace;
+        font-size: 4.5rem;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+    
+}
